@@ -77,11 +77,15 @@ img {
 .portfoliofolder {
   display: block;
   margin: 30px auto;
+  padding: 20px;
   width: 150px;
 }
 
 @media (max-width: 400px) {
   h2 {
     display: none;
+  }
+  img {
+    width: 400px;
   }
 }
