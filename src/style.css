@@ -1,0 +1,61 @@
+:root {
+  --primary-color: #6f63ff;
+  --box-shadow: 5px, 5px, 5px, 5px;
+  --secondary-color: white;
+}
+
+h3 {
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 70px;
+  display: block;
+  text-align: center;
+  padding: 10px;
+}
+
+h4 {
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  color: grey;
+  padding: 10px;
+}
+
+.descriptions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.description-contact {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border: 5px solid var(--secondary-color);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: var(--box-shadow);
+  color: black;
+}
+
+.description-about {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: var(--primary-color);
+  border: 5px solid var(--primary-color);
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: var(--box-shadow);
+}
+a:hover {
+  color: pink;
+}
+
+a :visited {
+  color: black;
+}

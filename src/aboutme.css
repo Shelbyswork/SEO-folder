@@ -1,0 +1,87 @@
+body {
+  margin: 10px;
+}
+
+h1 {
+  font-size: 60px;
+  display: block;
+  text-align: center;
+}
+
+h5 {
+  font-size: 15px;
+  color: grey;
+  display: block;
+  text-align: center;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+a:hover {
+  color: pink;
+}
+
+a:visited {
+  color: purple;
+}
+
+.paragraphs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.plants {
+  font-size: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  border: 5px solid #f7f0ff;
+  background-color: #f7f0ff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+img {
+  width: 300px;
+}
+
+.weatherapp {
+  font-size: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  border: 5px solid #f7f0ff;
+  background-color: #f7f0ff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.portfolio {
+  font-size: 30px;
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  border: 5px solid #f7f0ff;
+  background-color: #f7f0ff;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.portfoliofolder {
+  display: block;
+  margin: 30px auto;
+  width: 150px;
+}
+
+@media (max-width: 400px) {
+  h2 {
+    display: none;
+  }
+}
